@@ -20,10 +20,10 @@ This project uses the following dependencies:
 
 ## Features
 
-- Crop recommendation based on soil parameters and local climate
-- Fertilizer recommendation based on soil nutrient levels
+- Crop recommendations based on soil parameters and local climate
+- Fertilizer suggestions based on soil nutrient levels
 - Plant disease detection through image analysis
-- Farm diary for tracking activities, expenses and income
+- Farm book for tracking activities, expenses and income
 - Task planner and calendar for scheduling farm activities
 - Knowledge hub with farming best practices and tutorials
 - Multi-language support with Hindi, Tamil, Telugu, and Bengali translations
@@ -37,7 +37,7 @@ This project uses the following dependencies:
 
 ## Complete Guide for Running Locally in VSCode
 
-### Prerequisites
+### Prerequisites:
 1. **Python 3.10+** - Make sure you have Python installed
 2. **PostgreSQL** - Install PostgreSQL database on your system
 3. **VSCode** - Install Visual Studio Code
@@ -45,7 +45,7 @@ This project uses the following dependencies:
    - Python extension for VSCode
    - SQLTools extension (optional, for database management)
 
-### Step-by-Step Setup Guide
+### Step-by-Step Setup Guide:
 
 1. **Clone the Repository**
    ```bash
@@ -113,7 +113,7 @@ This project uses the following dependencies:
 8. **Access the Application**
    - Open your browser and go to: `http://localhost:5000`
 
-### Troubleshooting
+### Troubleshooting:
 
 1. **Database Connection Issues**
    - Verify PostgreSQL is running: `pg_isready`
@@ -132,7 +132,7 @@ This project uses the following dependencies:
    flask run --host=0.0.0.0 --port=5001
    ```
 
-### VSCode-Specific Tips
+### VSCode-Specific Tips:
 
 1. **Setting Up the Python Interpreter**
    - Command Palette (Ctrl+Shift+P) → Python: Select Interpreter
